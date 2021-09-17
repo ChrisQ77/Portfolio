@@ -40,7 +40,7 @@ header {
 
 /* CONTACT */
 .section_contact {
-    width: 80%;
+    width: 60%;
     margin: auto;
     height: 100vh;
 }
@@ -111,13 +111,18 @@ input:target {
 
 /* SECTION PROJETS */
 
-
+.section_projets {
+    /* height: 100vh; */
+    width: 90%;
+    margin: auto;
+}
 
 .gallery-image {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
 }
 
 .gallery-image img {
